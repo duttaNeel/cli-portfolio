@@ -1,0 +1,62 @@
+.terminal {
+  background: #000;
+  color: #00ff00;
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Share Tech Mono', monospace;
+  overflow-y: auto;
+  line-height: 1.4;
+  box-shadow: inset 0 0 10px #00ff00;
+}
+
+.terminal-output {
+  margin-bottom: 20px;
+}
+
+.cmd {
+  color: #00ff00;
+  margin: 0;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+.output {
+  color: #f8f8f2;
+  margin: 0 0 15px 15px;
+  white-space: pre-wrap;
+  text-shadow: 0 0 3px #fff;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form span {
+  color: #00ff00;
+  margin-right: 10px;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+input {
+  background: transparent;
+  border: none;
+  color: #00ff00;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1em;
+  flex-grow: 1;
+  outline: none;
+  caret-color: #00ff00;
+}
+
+input::placeholder {
+  color: rgba(0, 255, 0, 0.4);
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+.blink {
+  animation: blink 1s step-end infinite;
+}

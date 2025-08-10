@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+Arko's CLI Portfolio
+A terminal-style interactive developer portfolio built with React, designed to mimic a real command-line interface.
+It allows visitors to explore my projects, skills, and contact information through commands — just like in a real terminal.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+Command-Line Navigation – Type commands to explore the portfolio.
 
-## Available Scripts
+Personal Info & Contact Commands – Quick access to my bio, resume, email, and social profiles.
 
-In the project directory, you can run:
+File System Simulation – Navigate virtual folders using ls and cd.
 
-### `npm start`
+Fun & Interactive – Includes easter eggs, quotes, and playful terminal features.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Live Data Fetching – Real-time weather command using API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📜 Available Commands
+🔹 Personal & Utility Commands
+about – Shows a short bio.
 
-### `npm test`
+projects – Lists key projects with short descriptions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+email – Displays my email address.
 
-### `npm run build`
+resume – Provides a link to my resume.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+linkedin – Opens my LinkedIn profile.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+github – Opens my GitHub profile.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+repo – Shows this portfolio’s source code repository.
 
-### `npm run eject`
+whoami – Displays my name, role, and tagline.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🔹 File System & Terminal Commands
+ls – Lists files/folders in the current directory.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd <folder> – Changes virtual directory.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+echo <text> – Prints back your text.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+date – Shows the current date & time.
 
-## Learn More
+pwd – Prints the current directory path.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+vi, vim, nvim – Simulates opening a file.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+sudo – A fun easter egg.
 
-### Code Splitting
+🔹 Internet & Search Commands
+google <query> – Performs a Google search.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bing <query> – Performs a Bing search.
 
-### Analyzing the Bundle Size
+reddit – Opens Reddit or a specific subreddit.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🔹 Dynamic & Fun Commands
+weather <city> – Shows live weather info.
 
-### Making a Progressive Web App
+banner – Displays a welcome banner.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+quote – Shows a random quote.
 
-### Advanced Configuration
+sumfetch – Displays a profile summary like neofetch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+readme – Prints project description.
 
-### Deployment
+help – Lists all available commands.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🛠 Tech Stack
+Frontend: React
 
-### `npm run build` fails to minify
+Styling: CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Other Tools: Fetch API, JavaScript
+
+📦 Installation & Usage
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/<your-username>/<repo-name>.git
+
+# Navigate to project folder
+cd <repo-name>
+
+# Install dependencies
+npm install
+
+# Start the project
+npm start
+📄 License
+This project is open-source and available under the MIT License.
+

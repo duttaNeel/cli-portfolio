@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import Terminal from "./components/Terminal";
+import figlet from "figlet";
 
-function App() {
+export default function App() {
+  const [ascii, setAscii] = useState("");
+
+  useEffect(() => {
+    figlet.text("ARKAPARNA DUTTA", (err, data) => {
+      if (err) {
+        console.error("Figlet error:", err);
+        return;
+      }
+      setAscii(data);
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ backgroundColor: "#222", color: "#eee", padding: "20px", fontFamily: "monospace" }}>
+      <pre>{ascii}</pre>
+      <Terminal />
     </div>
   );
 }
-
-export default App;
