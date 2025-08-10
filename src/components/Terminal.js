@@ -56,7 +56,7 @@ export default function MyTerminal() {
   return (
     <div style={{ height: "100vh", backgroundColor: "#000", position: 'relative' }}>
       <Terminal
-        name="Arko's CLI"
+        name="Arkaparna's CLI"
         colorMode="light"
         onInput={handleInput}
         height="100%"
