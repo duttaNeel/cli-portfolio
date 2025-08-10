@@ -8,7 +8,14 @@ help: () => `Available commands:\nabout, projects, email, resume, linkedin, gith
   github: () => '<a href="https://github.com/duttaNeel" target="_blank" rel="noreferrer" style="color:#00ff00">GitHub</a>',
   repo: () => '<a href="https://github.com/duttaNeel?tab=repositories" target="_blank" rel="noreferrer" style="color:#00ff00">My GitHub Repositories</a>',
   whoami: () => `Arkaparna Dutta – Final Year CSE Student | Web Developer`,
-  sumfetch: () => `<pre style="color:#00ff00;margin:0;">┌────────────────────────────────────────┐\n│ Name:    Arkaparna Dutta             │\n│ Role:    Web Developer                │\n│ Tech:    C, C++, Java, Python         │\n│          HTML, CSS, JS, ReactJS       │\n│          Bootstrap                    │\n│ GitHub:  github.com/duttaNeel         │\n└────────────────────────────────────────┘</pre>` ,
+  sumfetch: () => `<pre style="color:#00ff00;margin:0;">┌────────────────────────────────────────┐
+│ Name:    Arkaparna Dutta               │
+│ Role:    Web Developer                 │
+│ Tech:    C, C++, Java, Python          │
+│          HTML, CSS, JS, ReactJS        │
+│          Bootstrap                     │
+│ GitHub:  github.com/duttaNeel          │
+└────────────────────────────────────────┘</pre>` ,
   banner: () => "<pre style='color:#00ff00;font-size:1.2em;'>Welcome to Arko's Portfolio CLI 🚀</pre>",
   quote: () => {
     const quotes = [
