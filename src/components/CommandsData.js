@@ -1,5 +1,5 @@
 const commands = {
-help: () => `Available commands:\nabout, projects, email, resume, linkedin, github, repo, whoami,\necho, date, google, weather, banner, quote, sumfetch, help, clear`,
+help: () => `Available commands:\nabout, projects, email, resume, linkedin, github, repo, whoami,\necho, date, google, randomTip, codingChallenge, motivation, banner, quote, sumfetch, help, clear`,
   about: () => `Final-year B.Tech Computer Science student at KIIT University with a solid foundation in C, C++, Java, and Python. Skilled in Data Structures and Algorithms, with a growing interest in full-stack development using HTML, CSS, JavaScript, and ReactJS. Passionate about learning and staying updated in the dynamic tech landscape.`,
   projects: () => `1. ToDo App – Full-stack task manager (Spring Boot + HTML/CSS/JS).\n   GitHub: https://github.com/duttaNeel/todoapp\n   Live: https://todoapp-oo0w.onrender.com\n2. CLI Portfolio (this project)\n   Repo: https://github.com/duttaNeel/cli-portfolio` ,
   email: () => `📧 duttaneel004@gmail.com` ,
