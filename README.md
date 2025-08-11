@@ -32,37 +32,21 @@ repo – Shows this portfolio’s source code repository.
 whoami – Displays my name, role, and tagline.
 
 🔹 File System & Terminal Commands
-ls – Lists files/folders in the current directory.
-
-cd <folder> – Changes virtual directory.
 
 echo <text> – Prints back your text.
 
 date – Shows the current date & time.
 
-pwd – Prints the current directory path.
-
-vi, vim, nvim – Simulates opening a file.
-
-sudo – A fun easter egg.
-
 🔹 Internet & Search Commands
 google <query> – Performs a Google search.
 
-bing <query> – Performs a Bing search.
-
-reddit – Opens Reddit or a specific subreddit.
-
 🔹 Dynamic & Fun Commands
-weather <city> – Shows live weather info.
 
 banner – Displays a welcome banner.
 
 quote – Shows a random quote.
 
 sumfetch – Displays a profile summary like neofetch.
-
-readme – Prints project description.
 
 help – Lists all available commands.
 
@@ -75,8 +59,6 @@ Other Tools: Fetch API, JavaScript
 
 📦 Installation & Usage
 bash
-Copy
-Edit
 # Clone the repository
 git clone https://github.com/<your-username>/<repo-name>.git
 
