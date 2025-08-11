@@ -1,5 +1,5 @@
 const commands = {
-help: () => `Available commands:\nabout, projects, email, resume, linkedin, github, repo, whoami,\necho, date, google, randomTip, codingChallenge, motivation, banner, quote, sumfetch, help, clear`,
+help: () => `Available commands:\nabout, projects, email, resume, linkedin, github, repo, whoami,\necho, date, google, randomtip, codingchallenge, motivation, banner, quote, sumfetch, help, clear`,
   about: () => `Final-year B.Tech Computer Science student at KIIT University with a solid foundation in C, C++, Java, and Python. Skilled in Data Structures and Algorithms, with a growing interest in full-stack development using HTML, CSS, JavaScript, and ReactJS. Passionate about learning and staying updated in the dynamic tech landscape.`,
   projects: () => `1. ToDo App – Full-stack task manager (Spring Boot + HTML/CSS/JS).\n   GitHub: https://github.com/duttaNeel/todoapp\n   Live: https://todoapp-oo0w.onrender.com\n2. CLI Portfolio (this project)\n   Repo: https://github.com/duttaNeel/cli-portfolio` ,
   email: () => `📧 duttaneel004@gmail.com` ,
@@ -36,7 +36,7 @@ help: () => `Available commands:\nabout, projects, email, resume, linkedin, gith
     '<a href="https://www.google.com" target="_blank" style="color:#00ff00">Open Google</a>' :
     `<a href="https://www.google.com/search?q=${encodeURIComponent(args.join(' '))}" target="_blank" style="color:#00ff00">Google Search: ${args.join(' ')}</a>`,
   // Removed weather command
-  randomTip: () => {
+  randomtip: () => {
     const tips = [
       "Always keep your functions small and focused on a single task.",
       "Write code as if the person who ends up maintaining it will be a violent psychopath who knows where you live.",
@@ -52,7 +52,7 @@ help: () => `Available commands:\nabout, projects, email, resume, linkedin, gith
     ];
     return tips[Math.floor(Math.random() * tips.length)];
   },
-  codingChallenge: () => {
+  codingchallenge: () => {
     const challenges = [
       "Reverse a string without using built-in reverse methods.",
       "Write a function to determine if a number is prime.",
