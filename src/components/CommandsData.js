@@ -35,7 +35,51 @@ help: () => `Available commands:\nabout, projects, email, resume, linkedin, gith
   google: (args = []) => args.length === 0 ?
     '<a href="https://www.google.com" target="_blank" style="color:#00ff00">Open Google</a>' :
     `<a href="https://www.google.com/search?q=${encodeURIComponent(args.join(' '))}" target="_blank" style="color:#00ff00">Google Search: ${args.join(' ')}</a>`,
-  weather: (args = []) => `Weather for ${args.length > 0 ? args.join(' ') : 'Bhubaneswar'}: 28°C, Partly Cloudy ☁️`,
+  // Removed weather command
+  randomTip: () => {
+    const tips = [
+      "Always keep your functions small and focused on a single task.",
+      "Write code as if the person who ends up maintaining it will be a violent psychopath who knows where you live.",
+      "Use meaningful variable and function names for better readability.",
+      "Remember: null and undefined are not the same in JavaScript!",
+      "Comment why something is done, not what is done.",
+      "Use version control! Commit early, commit often.",
+      "Practice writing pseudocode before you start coding.",
+      "DRY: Don’t Repeat Yourself — reuse functions and logic.",
+      "Check for off-by-one errors in your loops.",
+      "Know the time/space complexity of your algorithms.",
+      "Prefer === over == in JavaScript for strict equality.",
+    ];
+    return tips[Math.floor(Math.random() * tips.length)];
+  },
+  codingChallenge: () => {
+    const challenges = [
+      "Reverse a string without using built-in reverse methods.",
+      "Write a function to determine if a number is prime.",
+      "Find the first non-repeating character in a string.",
+      "Implement a simple stack and its push/pop operations.",
+      "Write a function that sums all numbers from 1 to N.",
+      "Sort an array of numbers without using the sort function.",
+      "Write a function to check if a string is a palindrome.",
+      "Implement the Fibonacci sequence iteratively.",
+      "Given an array, return its maximum subarray sum (Kadane’s Algorithm).",
+      "Find the intersection of two arrays.",
+    ];
+    return `💡 Coding Challenge: ${challenges[Math.floor(Math.random() * challenges.length)]}`;
+  },
+  motivation: () => {
+    const ascii = `    _______    \n   |       |\n   |  <^>  |\n   |_______|\n     / | \\\n`;
+    const quotes = [
+      "Success is not the key to happiness. Happiness is the key to success. — Albert Schweitzer",
+      "Don’t watch the clock; do what it does. Keep going. — Sam Levenson",
+      "The best way to get started is to quit talking and begin doing. — Walt Disney",
+      "Opportunities don't happen, you create them. — Chris Grosser",
+      "Productivity is never an accident. — Paul Meyer",
+      "Code today so tomorrow you can build what you dream.",
+    ];
+    const quote = quotes[Math.floor(Math.random() * quotes.length)];
+    return `<pre style='color:#00ff00'>${ascii}</pre>\n🚀 ${quote}`;
+  },
   clear: () => null
 };
 
